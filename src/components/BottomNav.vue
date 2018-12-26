@@ -4,7 +4,8 @@
 
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">실시간<br>수요감축요청</a>
+                    <router-link to='/about' class="nav-link">실시간<br>수요감축요청 router</router-link>
+                    <!-- <a class="nav-link" href="#">실시간<br>수요감축요청</a> -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">수요감축요청<br>이력</a>
@@ -26,7 +27,7 @@
 <script>
 export default {
     name: 'BottomNav',
-    
+
 }
 </script>
 
